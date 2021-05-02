@@ -1,0 +1,60 @@
+{
+  "name": "sfc-test",
+  "version": "0.0.0",
+  "description": "sfc test",
+  "main": "src/index.ts",
+  "scripts": {
+    "check-types": "tsc",
+    "build": "webpack",
+    "serve": "lws -c lws.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ubipo/sfc-test.git"
+  },
+  "author": "Pieter Fiers",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ubipo/sfc-test/issues"
+  },
+  "homepage": "https://github.com/ubipo/sfc-test#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "~7.13.16",
+    "@babel/plugin-proposal-object-rest-spread": "^7.13.8",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/plugin-transform-runtime": "~7.13.15",
+    "@babel/plugin-transform-typescript": "^7.13.0",
+    "@babel/preset-env": "~7.13.15",
+    "@babel/preset-typescript": "^7.13.0",
+    "@babel/runtime": "~7.13.17",
+    "@babel/runtime-corejs3": "~7.13.17",
+    "@types/webpack-env": "^1.16.0",
+    "@typescript-eslint/eslint-plugin": "~4.22.0",
+    "@typescript-eslint/parser": "~4.22.0",
+    "@vue/compiler-sfc": "~3.0.11",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-transform-commonjs-es2015-modules": "^4.0.1",
+    "core-js": "~3.11.0",
+    "ejs-loader": "^0.5.0",
+    "html-webpack-plugin": "^5.3.1",
+    "ts-loader": "~9.1.1",
+    "typescript": "~4.2.4",
+    "vue": "~3.0.11",
+    "vue-concurrency": "^2.0.3",
+    "vue-loader": "~16.2.0",
+    "vue-template-compiler": "^2.6.11",
+    "vuetype": "^0.3.2",
+    "webpack": "~5.36.0",
+    "webpack-cli": "~4.6.0",
+    "webpack-dev-server": "^4.0.0-beta.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "lws": "^3.1.0",
+    "lws-cors": "^3.0.0",
+    "lws-spa": "^3.0.0",
+    "lws-static": "^2.0.0"
+  }
+}
